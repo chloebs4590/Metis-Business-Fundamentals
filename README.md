@@ -44,3 +44,13 @@ Here is a [link](https://docs.google.com/spreadsheets/d/1khe92d1-ZcTdI5EMA8bWt69
 Since the program sign-up data was only available in PDF format, I converted it to a csv in Python before importing it into the Google Sheets document linked above. Here is a [link](https://github.com/chloebs4590/Metis-Business-Fundamentals/blob/main/biz_fundamentals_project.ipynb) to the Jupyter Notebook where I made the conversion.
 
 After compiling the data on household sign-up rates per eligible district (the only data available was from August - December 2021, in aggregate); average monthly tonnage of refuse collection per 10,000 residents per eligible district (I chose the time period June 2020 - September 2021, since that's when the curbside composting program was suspended); and the number of food scrap drop-off sites per square mile per eligible district, I created maps of these metrics. Here is a [link](https://public.tableau.com/app/profile/chloe.bergsma.safar/viz/MetisBusinessFundamentalsProject/RefusevDrop-offSitesvSignups2) to the interactive Tableau dashbord with these maps. In each of the maps, the more darkly shaded the district is, the better a candidate it is for outreach, based on these factors.
+
+### Algorithms/Tools
+
+For this project, I did not use algorithms to do modeling. Instead, I relied primarily on Google Sheets and Tableau. I used Python to engineer one feature (which I didn't end up using in my final analysis) and to convert the sign-ups data from PDF to csv format.
+
+In Google Sheets, I imported all files except the spatial file, which I only used in Tableau. I compiled various columns from different files into one sheet using vlookup and engineered new columns using various functions. I also created pivot tables and charts as part of the EDA phase of the project and to inform how I designed the visualizations in Tableau.
+
+### Communication
+
+In addition to this written report, I created this ["pitch" presentation](https://docs.google.com/presentation/d/1xLwTDXa_n10_ACDpKwGJTjvsH8JGuQ-SV6DFsUWBv38/edit?usp=sharing).
