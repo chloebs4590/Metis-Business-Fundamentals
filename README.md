@@ -33,7 +33,7 @@ I used the following data sources for this project:
 - [Food Scrap Drop-off Locations in NYC](https://data.cityofnewyork.us/Environment/Food-Scrap-Drop-Off-Locations-in-NYC/if26-z6xq) from NYC OpenData
 - [Curbside Composting Program Sign-up Data](https://www1.nyc.gov/assets/dsny/site/services/food-scraps-and-yard-waste-page/bydistrict-curbsidecomposting) from the DSNY's website
 - [NYC Community District Profiles](https://communityprofiles.planning.nyc.gov/) from the Department of City Planning
-- [Spatial file of NYC Community Districts' boundaries] (https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4) from NYC OpenData
+- [Spatial file of NYC Community Districts' boundaries](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4) from NYC OpenData
 
 Given the low sign-up rates for the curbside composting program in certain eligible districts, I wanted to think about what might motivate households in these districts to sign-up. I chose the amount of residential trash in a district as a factor, since plastic trash bags can be an eye sore and can also more easily be broken into by pests than the brown bins provided by the curbside composting program. And from the DSNY's perspective as a business, going to the areas where there's more trash could mean there's more potential to divert it to organics collection. The best proxy I could find for the amount of residential trash is the monthly tonnage of refuse collected from residences and "institutions" serviced by DSNY (in my research, "institution" doesn't include private businesses, but it does include "non-profits", such as schools).
 
